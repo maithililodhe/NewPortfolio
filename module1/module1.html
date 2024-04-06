@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1</title>
+   
+    <style>
+        #head, #sub {
+            text-align: center;
+        }
+        
+        ul.text{
+            list-style-type: circle;
+        }
+        #img {
+            max-width: 700px; /* Adjust as needed */
+            max-height: 700 px; /* Adjust as needed */
+        }
+        #img1 {
+            max-width: 700px; /* Adjust as needed */
+            max-height: 700 px; /* Adjust as needed */
+        }
+        #img2{
+            max-width: 700px; /* Adjust as needed */
+            max-height: 700 px; /* Adjust as needed */
+        }
+        #img3 {
+            max-width: 700px; /* Adjust as needed */
+            max-height: 700 px; /* Adjust as needed */
+        }
+        #img4{
+            max-width: 700px; /* Adjust as needed */
+            max-height: 700 px; /* Adjust as needed */
+        }
+        #img5
+         {
+            max-width: 700px; /* Adjust as needed */
+            max-height: 700 px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+     <h1 style="text-shadow: 1px 1px ; " id="head"> Documentation Of Module 1</h1>
+     <h2 style="text-shadow: 1px 1px red;" id="sub"> Web Development<br><br>
+    (HTML,CSS,JS)   </h2>
+    <ul id="text">
+        <li><h3>The Very First Module Of Our Fablab Was of Web Development Which Includes Understanding Of HTML,CSS And JS.</li><br>
+        <li><h3>Initially, we learnt all the basic tags of HTML along with some basic attributes of CSS. Tags like H1,Img,Form,etc were Used to get simple outputs.</h3></li>
+        <img id="img" src="./Screenshot 2024-04-01 215247.png" alt=""><br>
+        <br><li><h3> For styling of the Web Page, we learnt various attributes of CSS such as font weight, text align, margin, flex ,etc</h3></li><br>
+        <img id="img2" src="./Screenshot 2024-04-06 195404.png" alt=""><br>
+        <br><li><h3>After Understanding HTML And CSS, We Headed Towards JavaScript. Comparatively, JS Was A Difficult Task To Work On.</h3></li><br>
+        <li><h3>We Learnt Declaring,Defining And Calling Of The Function In The JS. We Used JS In HTML Using /Script> Tag.</h3> </li><br>
+        <img id="img3" src="./Screenshot 2024-04-06 195724.png" alt=""><br><br>
+        <li><h3>After All This, Our First Assignment Was To Make A form Using HTML & time tablw also. I make a eye Donation Registration form and my college time table.
+        </h3>
+        </li><br>
+        <a href="./eyedonetion.html"><img id="img4" src="./EYE (2).png" alt="form"></a><br><br>
+        <a href="./time table.html"><img id="img4" src="./eye.png" alt="form"></a><br><br>
+        <img id="img3" src="./Screenshot 2024-04-06 195724.png" alt=""><br><br>
+        <li><h3> Our Second Assignment Was To Make A Resume Using HTML,CSS & time tablw also. I make Resume.</h3>   
+        </li><br>
+        <a href="./pROFILE ASSIGMENTDAY2.HTML.html"><img id="img4" src="./profile.png" alt="form"></a><br><br>
+        <li> <h3>Our Third and Fourth Assignment Was To Make A buttons and clock Using HTML ,CSS &JS.</h3>    
+        </li><br>
+        <a href="./buton.html"><img id="img4" src="./BUTTON.png" alt="form"></a><br><br>
+        <a href="./assigment day 4.html"><img id="img4" src="./CLOCK.png" alt="form"></a><br><br>
+        <li> <h3>Our LAST Assignment Was To buld a portfolio Using HTML ,CSS &JS.I make this portfolio.  </h3> 
+        </li><br>
+         <a href="https://drive.google.com/file/d/1EnuZLUkOnipNWefukqmv-69DmlPHVDfr/view?usp=drivesdk"><li>Click Here To See My Resume.</li></a><br>
+        
+<!-- 
+         <div class="flex">
+            <img src="./Screenshot (52).png" alt="">
+            <img src="./Screenshot (53).png" alt="">
+         </div><br><br>
+
+          <div class="flex2">
+            <img src="./Screenshot (54).png" alt="">
+            <img src="./Screenshot (55).png" alt="">
+         </div><br><br>  -->
+
+             </ul>
+             <h1 id="footer"><-----Thank You!!-----></h1>
+             <a href="https://yt3.googleusercontent.com/9VNcRiISW_f2Fb9GS61XQQJaG3ATkP0lwX5XkGoQitLn7EovvMWu8QiKGrozvNNohPN-NOaUlA=s900-c-k-c0x00ffffff-no-rj"><h6 id="copyright"  style="color: aliceblue;">OK</h6></a>
+    </div> 
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

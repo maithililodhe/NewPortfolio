@@ -1,0 +1,73 @@
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Current Time</title>
+   <style>
+     .clock-frame {
+       font-family: Arial, sans-serif;
+       font-size: 24px;
+       text-align: center;
+       margin-top: 20px;
+       padding: 20px;
+       border-radius: 10px;
+       animation: fadeIn 1s ease-in-out;
+     }
+ 
+     .clock {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 10px;
+       padding: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       background-color: #f9f9f9;
+       background: linear-gradient(rgb(102, 241, 102), yellow, pink);
+       animation: slideIn 1s ease-in-out, backgroundAnimation 10s infinite alternate;
+     }
+ 
+     .country-name {
+       flex: 1;
+     }
+ 
+     @keyframes fadeIn {
+       from { opacity: 0; }
+       to { opacity: 1; }
+     }
+ 
+     @keyframes slideIn {
+       from { transform: translateY(-20px); opacity: 0; }
+       to { transform: translateY(0); opacity: 1; }
+     }
+ 
+     @keyframes backgroundAnimation {
+       0% { background-position: 0% 50%; }
+       50% { background-position: 100% 50%; }
+       100% { background-position: 0% 50%; }
+     }
+   </style>
+ </head>
+ <body style="background: linear-gradient(to bottom, #e0ffff, #87ceeb);">
+   <div>
+     <button class="clock" onclick="showTime('Asia/Kolkata', 'indiaFrame')">India</button>
+     <button class="clock" onclick="showTime('America/New_York', 'newYorkFrame')">New York</button>
+     <button class="clock" onclick="showTime('Europe/London', 'londonFrame')">London</button>
+     <button class="clock" onclick="showTime('Australia/Sydney', 'sydneyFrame')">Sydney</button>
+   </div>
+ 
+   <div class="amm">
+     <div class="clock-frame" id="indiaFrame"></div>
+     <div class="clock-frame" id="newYorkFrame"></div>
+     <div class="clock-frame" id="londonFrame"></div>
+     <div class="clock-frame" id="sydneyFrame"></div>
+
+     <script src="assiment day 4.js"></script>
+   </div>
+ </body>
+ </html>
+  
+   
+ 

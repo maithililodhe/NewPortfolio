@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Styling</title>
+<style>
+  
+  .frame {
+    background: linear-gradient(45deg, yellow,green,blue);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+
+  .button {
+    background-color: #afc2b0; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    opacity: 0.8; 
+  }
+
+  .button1:hover {
+    transform: scale(1.1); 
+    font-size: 25px;
+    
+  }
+
+  .button2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  }
+
+  .button3:hover {
+    border: 2px solid #f44336; 
+  }
+
+  .button4:hover {
+    text-shadow: 2px 2px 4px #5b08ad; 
+  }
+
+  .button5:hover {
+    background-color: #800080;
+  }
+
+ 
+  .row {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="row">
+    <button class="button">Button 1</button>
+    <button class="button button1">Button 2</button>
+    <button class="button button2">Button 3</button>
+  </div>
+  <div class="row">
+    <button class="button button3">Button 4</button>
+    <button class="button button4">Button 5</button>
+    <button class="button button5">Button 6</button>
+  </div>
+</div>
+</body>
+</html>
