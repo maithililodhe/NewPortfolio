@@ -1,0 +1,101 @@
+html{
+    background-color: lavender;
+    word-spacing: 2px;
+    
+}
+#underline{
+    color:orange;
+}
+#head{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration-line:underline;
+}
+#sub{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    }
+    #text{
+        font-weight: bold;
+        word-spacing: 2px;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    .flex{
+        display: flex;
+        height: 380px;
+            width: 50px;
+            margin-left: 300px;
+
+        }
+    .flex1{
+            display: flex;
+            height: 380px;
+                width: 50px;
+                margin-left: 50px;
+    
+            }
+    .flex2{
+                display: flex;
+                height: 323px;
+                    width: 50px;
+                    margin-left: 43px;
+        
+                }
+    .flex3{
+                    display: flex;
+                    height: 375px;
+                        width: 50px;
+                        margin-left: 38px;
+            
+                    }
+     .flex4{
+                        display: flex;
+                        height: 454px;
+                            width: 100px;
+                            margin-left: 40px;
+                
+                        }
+    .flex5{
+                            display: flex;
+                            height: 393px;
+                                width: 100px;
+                                margin-left: 40px;
+                    
+                            }
+#img2{
+    height: 400px;
+    width: auto;
+    margin-left: 300px;
+}
+#img3{
+    height: 459px;
+    width: auto;
+    margin-left: 351px;
+}
+#footer{
+    text-align: center;
+    font: size 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:red ;
+    text-shadow: 1px 1px black;
+}
+#copyright{
+    color:lavender;
+}
+h6:hover{
+    text-decoration-color: yellow;
+}
+
+
+
+
+                   
+    
+
+    
+    
